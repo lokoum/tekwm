@@ -1,2 +1,2 @@
 # tekwm
-tekwm is a tilling window manager
+tekwm is a tiling window manager

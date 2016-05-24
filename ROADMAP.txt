@@ -1,13 +1,19 @@
-- iso archlinux cleaned & avec auto login iit wifi
+- iso archlinux/LSF () - tekos
 
+        -auto login to wpa2_enterprise
+        -school repo
+            -emacs conf
+            -vim conf
+            -blih
 
-- Tiling manager ()
+- Tiling manager (xcb) - tekwm
 
-  	 -twmn
-	 -Tinux
-	 -Tekos
-
-- Ajouter un repodb epitech emacs vim blih emacs conf vim conf...
-
-
--- epitech-dump
+        -global interface in material design
+        -monitoring system
+            -server/client
+        -stuff with webcam/mic
+        -wallpaper generation in material design
+            -live generation at boot (5 - 10 seconde generation)
+        -status bar like i3 with usefull info about the system
+        -give a window to a friend, instead of switching desktop, switch computer
+        

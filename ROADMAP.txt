@@ -1,0 +1,13 @@
+- iso archlinux cleaned & avec auto login iit wifi
+
+
+- Tiling manager ()
+
+  	 -twmn
+	 -Tinux
+	 -Tekos
+
+- Ajouter un repodb epitech emacs vim blih emacs conf vim conf...
+
+
+-- epitech-dump

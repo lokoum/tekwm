@@ -20,4 +20,6 @@
         -twmn/create a real notification manager
         -launcher (dmenu like) launch X app and terminal based app => no ZOMBIES
         -locker with animation
+        -log system for debug and some usefull information
+        -chat system completely integrated into the tekwm
         

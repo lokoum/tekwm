@@ -21,5 +21,5 @@ tekwm is a tiling window manager
 
 # Authors - LICENSE
 
-By peau_c & trnocy_l
+By peau_c & troncy_l
 See LICENSE file for more information about the LICENSE used !

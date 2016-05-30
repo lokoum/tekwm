@@ -1,0 +1,15 @@
+.\" Manpage for tekwm.
+.\" Contact peau_c@epitech.eu or troncy_l@epitech.eu to correct errors or typos.
+.TH man 1 "30 May 2016" "1.0" "tekwm man page"
+.SH NAME
+tekwm \- tiling window manager
+.SH SYNOPSIS
+exec tekwm in your xinit script
+.SH DESCRIPTION
+tekwm is tiling window manager with advanced functionalities to share your work in real time
+.SH OPTIONS
+tekwm does not take any options.
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Clement Peau (peau_c@epitech.eu), Lucas Troncy (troncy_l@epitech.eu)

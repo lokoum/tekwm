@@ -1,3 +1,4 @@
+#include <xcb/xcb.h>
 #include "tekwm.h"
 
 int	main ()

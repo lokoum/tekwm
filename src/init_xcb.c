@@ -5,11 +5,12 @@
 void		init_xcb_window(t_wm *wm)
 {
   uint32_t     mask      = XCB_CW_BACK_PIXEL | XCB_CW_EVENT_MASK;
-  uint32_t     values[2] = {wm->xcb->screen->black_pixel,
+  uint32_t     values[2] = {0,
                                     XCB_EVENT_MASK_EXPOSURE       | XCB_EVENT_MASK_BUTTON_PRESS   |
                                     XCB_EVENT_MASK_BUTTON_RELEASE | XCB_EVENT_MASK_POINTER_MOTION |
                                     XCB_EVENT_MASK_ENTER_WINDOW   | XCB_EVENT_MASK_LEAVE_WINDOW   |
                                     XCB_EVENT_MASK_KEY_PRESS      | XCB_EVENT_MASK_KEY_RELEASE };
+  values[0] = wm->xcb->screen->black_pixel;
   xcb_create_window(wm->xcb->conn,
 		     0,					/* depth               */
 		     wm->xcb->win,				/* the window we are creating*/

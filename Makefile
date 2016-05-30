@@ -15,16 +15,16 @@ OBJS		= $(SRCS:.c=.o)
 
 INCDIR		= -I./include
 
-ifeq ($(DEBUG), no)
-    CFLAGS	= $(INCDIR) -W -Wall -Werror -Wextra -ansi -pedantic
-else
-    CFLAGS	= $(INCDIR) -g -pg
-endif
-
 LDFLAGS		= -lxcb
 
+ifeq ($(DEBUG), no)
+    CFLAGS	= $(INCDIR) $(LDFLAGS) -W -Wall -Werror -Wextra -ansi -pedantic
+else
+    CFLAGS	= $(INCDIR) $(LDFLAGS) -g -pg
+endif
+
 $(NAME): $(OBJS)
-	@ $(CC) $(OBJS) -o $(NAME)
+	@ $(CC) $(OBJS) -o $(NAME) $(CFLAGS)
 	@ echo "these flags were use: $(CFLAGS)"
 
 %.o: %.c
